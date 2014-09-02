@@ -9,6 +9,14 @@ BOOL isIncludingEmoji = [@"✨Party✨ ✨Hard✨" isIncludingEmoji];
 NSString* removedEmoji = [@"✨Party✨ ✨Hard✨" removedEmojiString];
 ```
 
+## Insatall
+
+Use CocoaPods.
+
+```ruby
+pod 'NSString+RemoveEmoji'
+```
+
 ## License
 Copyright (c) 2014 woxtu
 
