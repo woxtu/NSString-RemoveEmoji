@@ -1,5 +1,7 @@
 # NSString+RemoveEmoji
 
+[![CocoaPods](https://img.shields.io/cocoapods/v/NSString+RemoveEmoji.svg?style=flat-square)](https://cocoapods.org/pods/NSString+RemoveEmoji)
+
 A category on NSString that extends for removing Emoji.
 
 ## Usage
