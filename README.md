@@ -9,7 +9,7 @@ BOOL isIncludingEmoji = [@"✨Party✨ ✨Hard✨" isIncludingEmoji];
 NSString* removedEmoji = [@"✨Party✨ ✨Hard✨" removedEmojiString];
 ```
 
-## Insatall
+## Install
 
 Use CocoaPods.
 
