@@ -66,7 +66,7 @@
 	return result;
 }
 
-- (instancetype)removedSurrogatePairsFromString {
+- (instancetype)removedSurrogatePairString {
 	NSMutableString* __block buffer = [NSMutableString stringWithCapacity:[self length]];
 	
 	[self enumerateSubstringsInRange:NSMakeRange(0, [self length])

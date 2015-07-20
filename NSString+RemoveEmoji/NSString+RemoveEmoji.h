@@ -8,6 +8,6 @@
 
 - (BOOL)isIncludingSurrogatePair;
 
-- (instancetype)removedSurrogatePairsFromString;
+- (instancetype)removedSurrogatePairString;
 
 @end
