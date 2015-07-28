@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D3A11B61B67C6200025BB6B /* NSString+RemoveSurrogatePair.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3A11B51B67C6200025BB6B /* NSString+RemoveSurrogatePair.m */; };
+		4D3A11B81B67C6950025BB6B /* NSString_RemoveSurrogatePairTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3A11B71B67C6950025BB6B /* NSString_RemoveSurrogatePairTests.m */; };
 		6F8F2B701983825100E196C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8F2B6F1983825100E196C2 /* Foundation.framework */; };
 		6F8F2B721983825100E196C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8F2B711983825100E196C2 /* CoreGraphics.framework */; };
 		6F8F2B741983825100E196C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8F2B731983825100E196C2 /* UIKit.framework */; };
@@ -31,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D3A11B41B67C6200025BB6B /* NSString+RemoveSurrogatePair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RemoveSurrogatePair.h"; sourceTree = "<group>"; };
+		4D3A11B51B67C6200025BB6B /* NSString+RemoveSurrogatePair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RemoveSurrogatePair.m"; sourceTree = "<group>"; };
+		4D3A11B71B67C6950025BB6B /* NSString_RemoveSurrogatePairTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString_RemoveSurrogatePairTests.m; sourceTree = "<group>"; };
 		6F8F2B6C1983825100E196C2 /* NSString+RemoveEmoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSString+RemoveEmoji.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F8F2B6F1983825100E196C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6F8F2B711983825100E196C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -107,6 +112,8 @@
 			children = (
 				6F8F2B9E1983829A00E196C2 /* NSString+RemoveEmoji.h */,
 				6F8F2B9F1983829A00E196C2 /* NSString+RemoveEmoji.m */,
+				4D3A11B41B67C6200025BB6B /* NSString+RemoveSurrogatePair.h */,
+				4D3A11B51B67C6200025BB6B /* NSString+RemoveSurrogatePair.m */,
 				6F8F2B761983825100E196C2 /* Supporting Files */,
 			);
 			path = "NSString+RemoveEmoji";
@@ -127,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				6F8F2B941983825100E196C2 /* NSString_RemoveEmojiTests.m */,
+				4D3A11B71B67C6950025BB6B /* NSString_RemoveSurrogatePairTests.m */,
 				6F8F2B8F1983825100E196C2 /* Supporting Files */,
 			);
 			path = "NSString+RemoveEmojiTests";
@@ -237,6 +245,7 @@
 			files = (
 				6F8F2BA01983829A00E196C2 /* NSString+RemoveEmoji.m in Sources */,
 				6F8F2B7C1983825100E196C2 /* main.m in Sources */,
+				4D3A11B61B67C6200025BB6B /* NSString+RemoveSurrogatePair.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D3A11B81B67C6950025BB6B /* NSString_RemoveSurrogatePairTests.m in Sources */,
 				6F8F2B951983825100E196C2 /* NSString_RemoveEmojiTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +443,7 @@
 				6F8F2B9A1983825100E196C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F8F2B9B1983825100E196C2 /* Build configuration list for PBXNativeTarget "NSString+RemoveEmojiTests" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +452,7 @@
 				6F8F2B9D1983825100E196C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
