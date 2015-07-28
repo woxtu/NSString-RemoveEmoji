@@ -6,8 +6,4 @@
 
 - (instancetype)removedEmojiString;
 
-- (BOOL)isIncludingSurrogatePair;
-
-- (instancetype)removedSurrogatePairString;
-
 @end
