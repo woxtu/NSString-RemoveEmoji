@@ -4,6 +4,8 @@
 
 - (BOOL)isIncludingEmoji;
 
-- (instancetype)removedEmojiString;
+- (instancetype)stringByRemovingEmoji;
+
+- (instancetype)removedEmojiString __attribute__((deprecated));
 
 @end

@@ -33,7 +33,7 @@
     return result;
 }
 
-- (instancetype)removedEmojiString {
+- (instancetype)stringByRemovingEmoji {
     NSMutableString* __block buffer = [NSMutableString stringWithCapacity:[self length]];
     
     [self enumerateSubstringsInRange:NSMakeRange(0, [self length])
@@ -43,6 +43,10 @@
     }];
     
     return buffer;
+}
+
+- (instancetype)removedEmojiString {
+    return [self stringByRemovingEmoji];
 }
 
 @end
