@@ -15,9 +15,9 @@
 }
 
 - (void)testRemovedEmojiString {
-    XCTAssert([[@"Party Hard" removedEmojiString] isEqualToString:@"Party Hard"]);
-    XCTAssert([[@"✨" removedEmojiString] isEqualToString:@""]);
-    XCTAssert([[@"✨Party✨ ✨Hard✨" removedEmojiString] isEqualToString:@"Party Hard"]);
+    XCTAssert([[@"Party Hard" stringByRemovingEmoji] isEqualToString:@"Party Hard"]);
+    XCTAssert([[@"✨" stringByRemovingEmoji] isEqualToString:@""]);
+    XCTAssert([[@"✨Party✨ ✨Hard✨" stringByRemovingEmoji] isEqualToString:@"Party Hard"]);
 }
 
 @end
