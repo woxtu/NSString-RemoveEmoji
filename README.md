@@ -8,7 +8,7 @@ A category on NSString that extends for removing Emoji.
 
 ```objectivec
 BOOL isIncludingEmoji = [@"✨Party✨ ✨Hard✨" isIncludingEmoji];
-NSString* removedEmoji = [@"✨Party✨ ✨Hard✨" removedEmojiString];
+NSString* stringByRemovingEmoji = [@"✨Party✨ ✨Hard✨" stringByRemovingEmoji];
 ```
 
 ## Install
