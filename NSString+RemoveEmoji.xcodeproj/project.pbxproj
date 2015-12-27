@@ -7,15 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F290D181C3043C400565D9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F290D171C3043C400565D9E /* main.m */; };
 		6F8F2B701983825100E196C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8F2B6F1983825100E196C2 /* Foundation.framework */; };
 		6F8F2B721983825100E196C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8F2B711983825100E196C2 /* CoreGraphics.framework */; };
 		6F8F2B741983825100E196C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8F2B731983825100E196C2 /* UIKit.framework */; };
-		6F8F2B7A1983825100E196C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F8F2B781983825100E196C2 /* InfoPlist.strings */; };
-		6F8F2B7C1983825100E196C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F2B7B1983825100E196C2 /* main.m */; };
 		6F8F2B891983825100E196C2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8F2B881983825100E196C2 /* XCTest.framework */; };
 		6F8F2B8A1983825100E196C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8F2B6F1983825100E196C2 /* Foundation.framework */; };
 		6F8F2B8B1983825100E196C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8F2B731983825100E196C2 /* UIKit.framework */; };
-		6F8F2B931983825100E196C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F8F2B911983825100E196C2 /* InfoPlist.strings */; };
 		6F8F2B951983825100E196C2 /* NSString_RemoveEmojiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F2B941983825100E196C2 /* NSString_RemoveEmojiTests.m */; };
 		6F8F2BA01983829A00E196C2 /* NSString+RemoveEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F2B9F1983829A00E196C2 /* NSString+RemoveEmoji.m */; };
 /* End PBXBuildFile section */
@@ -31,18 +29,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F290D171C3043C400565D9E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6F8F2B6C1983825100E196C2 /* NSString+RemoveEmoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSString+RemoveEmoji.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F8F2B6F1983825100E196C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6F8F2B711983825100E196C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6F8F2B731983825100E196C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6F8F2B771983825100E196C2 /* NSString+RemoveEmoji-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSString+RemoveEmoji-Info.plist"; sourceTree = "<group>"; };
-		6F8F2B791983825100E196C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6F8F2B7B1983825100E196C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6F8F2B7D1983825100E196C2 /* NSString+RemoveEmoji-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+RemoveEmoji-Prefix.pch"; sourceTree = "<group>"; };
+		6F8F2B771983825100E196C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F8F2B871983825100E196C2 /* NSString+RemoveEmojiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSString+RemoveEmojiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F8F2B881983825100E196C2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6F8F2B901983825100E196C2 /* NSString+RemoveEmojiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSString+RemoveEmojiTests-Info.plist"; sourceTree = "<group>"; };
-		6F8F2B921983825100E196C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F8F2B901983825100E196C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F8F2B941983825100E196C2 /* NSString_RemoveEmojiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSString_RemoveEmojiTests.m; sourceTree = "<group>"; };
 		6F8F2B9E1983829A00E196C2 /* NSString+RemoveEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RemoveEmoji.h"; sourceTree = "<group>"; };
 		6F8F2B9F1983829A00E196C2 /* NSString+RemoveEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RemoveEmoji.m"; sourceTree = "<group>"; };
@@ -107,38 +102,19 @@
 			children = (
 				6F8F2B9E1983829A00E196C2 /* NSString+RemoveEmoji.h */,
 				6F8F2B9F1983829A00E196C2 /* NSString+RemoveEmoji.m */,
-				6F8F2B761983825100E196C2 /* Supporting Files */,
+				6F8F2B771983825100E196C2 /* Info.plist */,
+				6F290D171C3043C400565D9E /* main.m */,
 			);
 			path = "NSString+RemoveEmoji";
-			sourceTree = "<group>";
-		};
-		6F8F2B761983825100E196C2 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6F8F2B771983825100E196C2 /* NSString+RemoveEmoji-Info.plist */,
-				6F8F2B781983825100E196C2 /* InfoPlist.strings */,
-				6F8F2B7B1983825100E196C2 /* main.m */,
-				6F8F2B7D1983825100E196C2 /* NSString+RemoveEmoji-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		6F8F2B8E1983825100E196C2 /* NSString+RemoveEmojiTests */ = {
 			isa = PBXGroup;
 			children = (
 				6F8F2B941983825100E196C2 /* NSString_RemoveEmojiTests.m */,
-				6F8F2B8F1983825100E196C2 /* Supporting Files */,
+				6F8F2B901983825100E196C2 /* Info.plist */,
 			);
 			path = "NSString+RemoveEmojiTests";
-			sourceTree = "<group>";
-		};
-		6F8F2B8F1983825100E196C2 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6F8F2B901983825100E196C2 /* NSString+RemoveEmojiTests-Info.plist */,
-				6F8F2B911983825100E196C2 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,7 +161,7 @@
 		6F8F2B641983825100E196C2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = woxtu;
 				TargetAttributes = {
 					6F8F2B861983825100E196C2 = {
@@ -216,7 +192,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F8F2B7A1983825100E196C2 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +199,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F8F2B931983825100E196C2 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,8 +209,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F290D181C3043C400565D9E /* main.m in Sources */,
 				6F8F2BA01983829A00E196C2 /* NSString+RemoveEmoji.m in Sources */,
-				6F8F2B7C1983825100E196C2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,25 +232,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		6F8F2B781983825100E196C2 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6F8F2B791983825100E196C2 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6F8F2B911983825100E196C2 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6F8F2B921983825100E196C2 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		6F8F2B961983825100E196C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -296,6 +251,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -354,8 +310,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NSString+RemoveEmoji/NSString+RemoveEmoji-Prefix.pch";
-				INFOPLIST_FILE = "NSString+RemoveEmoji/NSString+RemoveEmoji-Info.plist";
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "NSString+RemoveEmoji/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "woxtu.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -367,8 +324,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NSString+RemoveEmoji/NSString+RemoveEmoji-Prefix.pch";
-				INFOPLIST_FILE = "NSString+RemoveEmoji/NSString+RemoveEmoji-Info.plist";
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "NSString+RemoveEmoji/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "woxtu.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -379,17 +337,17 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSString+RemoveEmoji.app/NSString+RemoveEmoji";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NSString+RemoveEmoji/NSString+RemoveEmoji-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "NSString+RemoveEmojiTests/NSString+RemoveEmojiTests-Info.plist";
+				INFOPLIST_FILE = "NSString+RemoveEmojiTests/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "woxtu.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -401,13 +359,13 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSString+RemoveEmoji.app/NSString+RemoveEmoji";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NSString+RemoveEmoji/NSString+RemoveEmoji-Prefix.pch";
-				INFOPLIST_FILE = "NSString+RemoveEmojiTests/NSString+RemoveEmojiTests-Info.plist";
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "NSString+RemoveEmojiTests/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "woxtu.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -433,6 +391,7 @@
 				6F8F2B9A1983825100E196C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F8F2B9B1983825100E196C2 /* Build configuration list for PBXNativeTarget "NSString+RemoveEmojiTests" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +400,7 @@
 				6F8F2B9D1983825100E196C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
