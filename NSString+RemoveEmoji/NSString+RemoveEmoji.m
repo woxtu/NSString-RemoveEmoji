@@ -1,8 +1,18 @@
 #import "NSString+RemoveEmoji.h"
 
+static NSCharacterSet* VariationSelectors = nil;
+
 @implementation NSString (RemoveEmoji)
 
++ (void)load {
+    VariationSelectors = [NSCharacterSet characterSetWithRange:NSMakeRange(0xFE00, 16)];
+}
+
 - (BOOL)isEmoji {
+    if ([self rangeOfCharacterFromSet: VariationSelectors].location != NSNotFound) {
+        return YES;
+    }
+        
     const unichar high = [self characterAtIndex: 0];
 
     // Surrogate pair (U+1D000-1F9FF)
