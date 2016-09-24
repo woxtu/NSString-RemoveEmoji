@@ -55,8 +55,4 @@ static NSCharacterSet* VariationSelectors = nil;
     return buffer;
 }
 
-- (instancetype)removedEmojiString {
-    return [self stringByRemovingEmoji];
-}
-
 @end
