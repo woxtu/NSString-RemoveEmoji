@@ -1,31 +1,24 @@
 #import "NSString+RemoveEmoji.h"
 
-static NSCharacterSet* VariationSelectors = nil;
+static NSMutableCharacterSet* EmojiCharacterSet = nil;
 
 @implementation NSString (RemoveEmoji)
 
 + (void)load {
-    VariationSelectors = [NSCharacterSet characterSetWithRange:NSMakeRange(0xFE00, 16)];
+    EmojiCharacterSet = [[NSMutableCharacterSet alloc] init];
+    
+    // U+FE00-FE0F (Variation Selectors)
+    [EmojiCharacterSet addCharactersInRange:NSMakeRange(0xFE00, 0xFE0F - 0xFE00 + 1)];
+    
+    // U+2100-27BF
+    [EmojiCharacterSet addCharactersInRange:NSMakeRange(0x2100, 0x27BF - 0x2100 + 1)];
+    
+    // U+1D000-1F9FF
+    [EmojiCharacterSet addCharactersInRange:NSMakeRange(0x1D000, 0x1F9FF - 0x1D000 + 1)];
 }
 
 - (BOOL)isEmoji {
-    if ([self rangeOfCharacterFromSet: VariationSelectors].location != NSNotFound) {
-        return YES;
-    }
-        
-    const unichar high = [self characterAtIndex: 0];
-
-    // Surrogate pair (U+1D000-1F9FF)
-    if (0xD800 <= high && high <= 0xDBFF) {
-        const unichar low = [self characterAtIndex: 1];
-        const int codepoint = ((high - 0xD800) * 0x400) + (low - 0xDC00) + 0x10000;
-
-        return (0x1D000 <= codepoint && codepoint <= 0x1F9FF);
-
-    // Not surrogate pair (U+2100-27BF)
-    } else {
-        return (0x2100 <= high && high <= 0x27BF);
-    }
+    return [self rangeOfCharacterFromSet:EmojiCharacterSet].location != NSNotFound;
 }
 
 - (BOOL)containsEmoji {

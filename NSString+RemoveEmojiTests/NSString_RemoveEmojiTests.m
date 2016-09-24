@@ -9,15 +9,23 @@
 @implementation NSString_RemoveEmojiTests
 
 - (void)testHasEmoji {
-    XCTAssertFalse([@"Party Hard" isIncludingEmoji]);
-    XCTAssert([@"✨" isIncludingEmoji]);
-    XCTAssert([@"✨Party✨ ✨Hard✨" isIncludingEmoji]);
+    XCTAssertFalse([@"Party Hard" containsEmoji]);
+    XCTAssert([@"⭕️" containsEmoji]);
+    XCTAssert([@"⭕️Party⭕️ ⭕️Hard⭕️" containsEmoji]);
+    XCTAssert([@"✨" containsEmoji]);
+    XCTAssert([@"✨Party✨ ✨Hard✨" containsEmoji]);
+    XCTAssert([@"🙏" containsEmoji]);
+    XCTAssert([@"🙏Party🙏 🙏Hard🙏" containsEmoji]);
 }
 
 - (void)testRemovedEmojiString {
     XCTAssert([[@"Party Hard" stringByRemovingEmoji] isEqualToString:@"Party Hard"]);
+    XCTAssert([[@"⭕️" stringByRemovingEmoji] isEqualToString:@""]);
+    XCTAssert([[@"⭕️Party⭕️ ⭕️Hard⭕️" stringByRemovingEmoji] isEqualToString:@"Party Hard"]);
     XCTAssert([[@"✨" stringByRemovingEmoji] isEqualToString:@""]);
     XCTAssert([[@"✨Party✨ ✨Hard✨" stringByRemovingEmoji] isEqualToString:@"Party Hard"]);
+    XCTAssert([[@"🙏" stringByRemovingEmoji] isEqualToString:@""]);
+    XCTAssert([[@"🙏Party🙏 🙏Hard🙏" stringByRemovingEmoji] isEqualToString:@"Party Hard"]);
 }
 
 @end
