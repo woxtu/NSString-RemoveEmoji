@@ -2,7 +2,9 @@
 
 @interface NSString (RemoveEmoji)
 
-- (BOOL)isIncludingEmoji;
+- (BOOL)containsEmoji;
+
+- (BOOL)isIncludingEmoji __attribute__((deprecated));
 
 - (instancetype)stringByRemovingEmoji;
 

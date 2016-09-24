@@ -28,7 +28,7 @@ static NSCharacterSet* VariationSelectors = nil;
     }
 }
 
-- (BOOL)isIncludingEmoji {
+- (BOOL)containsEmoji {
     BOOL __block result = NO;
 
     [self enumerateSubstringsInRange:NSMakeRange(0, [self length])
@@ -41,6 +41,10 @@ static NSCharacterSet* VariationSelectors = nil;
     }];
 
     return result;
+}
+
+- (BOOL)isIncludingEmoji {
+    return [self containsEmoji];
 }
 
 - (instancetype)stringByRemovingEmoji {
