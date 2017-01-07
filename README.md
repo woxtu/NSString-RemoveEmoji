@@ -20,21 +20,21 @@ let stringByRemovingEmoji = "✨Party✨ ✨Hard✨".removingEmoji()
 
 ### CocoaPods
 
-- Insert `pod 'NSString+RemoveEmoji', '~> 1.0'` to your Podfile.
-
-- Run `pod install`.
+```
+pod 'NSString+RemoveEmoji', '~> 1.0'
+```
 
 ### Carthage
 
-- Insert `github "woxtu/NSString-RemoveEmoji" ~> 1.0` to your Cartfile.
-
-- Run `carthage update`.
+```
+github "woxtu/NSString-RemoveEmoji" ~> 1.0
+```
 
 ### Swift Package Manager
 
-- Insert `.Package(url: "https://github.com/woxtu/NSString-RemoveEmoji.git", majorVersion: 1)` to your Package.swift.
-
-- Run `swift build`.
+```
+.Package(url: "https://github.com/woxtu/NSString-RemoveEmoji.git", majorVersion: 1)
+```
 
 ## License
 
