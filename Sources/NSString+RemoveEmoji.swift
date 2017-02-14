@@ -15,6 +15,12 @@ public extension NSString {
     
     @objc(stringByRemovingEmoji)
     public func removingEmoji() -> NSString {
-        return self.components(separatedBy: EmojiCharacterSet).joined() as NSString
+        let buffer = NSMutableString(capacity: self.length)
+        self.enumerateSubstrings(in: NSMakeRange(0, self.length), options: .byComposedCharacterSequences) { substring, _, _, _ in
+            if let substring = substring, !substring.containsEmoji() {
+                buffer.append(substring)
+            }
+        }
+        return buffer
     }
 }
