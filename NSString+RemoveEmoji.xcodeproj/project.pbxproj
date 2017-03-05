@@ -7,72 +7,116 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		430903151E211582002A7D8E /* NSString_RemoveEmoji.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4309030C1E211581002A7D8E /* NSString_RemoveEmoji.framework */; };
-		430903231E21162A002A7D8E /* EmojiCharacterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D52651E20DDA6007B68B2 /* EmojiCharacterSet.swift */; };
-		430903241E21162F002A7D8E /* NSString+RemoveEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* NSString+RemoveEmoji.swift */; };
-		430903251E211632002A7D8E /* NSString+RemoveEmojiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* NSString+RemoveEmojiTests.swift */; };
-		430903341E211690002A7D8E /* NSString_RemoveEmoji.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4309032B1E211690002A7D8E /* NSString_RemoveEmoji.framework */; };
-		430903421E211B7F002A7D8E /* NSString+RemoveEmojiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* NSString+RemoveEmojiTests.swift */; };
-		430903431E211B99002A7D8E /* NSString+RemoveEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* NSString+RemoveEmoji.swift */; };
-		430903441E211B9C002A7D8E /* EmojiCharacterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D52651E20DDA6007B68B2 /* EmojiCharacterSet.swift */; };
+		43CEC1971E6C4F63008FE490 /* NSString_RemoveEmoji.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CEC18E1E6C4F63008FE490 /* NSString_RemoveEmoji.framework */; };
+		43CEC1C01E6C54D0008FE490 /* NSString_RemoveEmoji.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CEC1B71E6C54D0008FE490 /* NSString_RemoveEmoji.framework */; };
+		43CEC1DC1E6C554C008FE490 /* NSString_RemoveEmoji.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CEC1D31E6C554C008FE490 /* NSString_RemoveEmoji.framework */; };
+		43CEC1EA1E6C5803008FE490 /* NSString+RemoveEmojiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* NSString+RemoveEmojiTests.swift */; };
+		43CEC1EB1E6C5804008FE490 /* NSString+RemoveEmojiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* NSString+RemoveEmojiTests.swift */; };
+		43CEC1EC1E6C5804008FE490 /* NSString+RemoveEmojiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* NSString+RemoveEmojiTests.swift */; };
+		43CEC1ED1E6C580B008FE490 /* NSString+RemoveEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* NSString+RemoveEmoji.swift */; };
+		43CEC1EE1E6C580C008FE490 /* NSString+RemoveEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* NSString+RemoveEmoji.swift */; };
+		43CEC1EF1E6C580C008FE490 /* NSString+RemoveEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* NSString+RemoveEmoji.swift */; };
+		43CEC1F01E6C580C008FE490 /* NSString+RemoveEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* NSString+RemoveEmoji.swift */; };
+		43CEC1F11E6C5810008FE490 /* EmojiCharacterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D52651E20DDA6007B68B2 /* EmojiCharacterSet.swift */; };
+		43CEC1F21E6C5810008FE490 /* EmojiCharacterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D52651E20DDA6007B68B2 /* EmojiCharacterSet.swift */; };
+		43CEC1F31E6C5811008FE490 /* EmojiCharacterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D52651E20DDA6007B68B2 /* EmojiCharacterSet.swift */; };
+		43CEC1F41E6C5811008FE490 /* EmojiCharacterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D52651E20DDA6007B68B2 /* EmojiCharacterSet.swift */; };
+		43CEC1F51E6C58A2008FE490 /* EmojiCharacterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D52651E20DDA6007B68B2 /* EmojiCharacterSet.swift */; };
+		43CEC1F61E6C58A3008FE490 /* EmojiCharacterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D52651E20DDA6007B68B2 /* EmojiCharacterSet.swift */; };
+		43CEC1F71E6C58A3008FE490 /* EmojiCharacterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D52651E20DDA6007B68B2 /* EmojiCharacterSet.swift */; };
+		43CEC1F81E6C58A7008FE490 /* NSString+RemoveEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* NSString+RemoveEmoji.swift */; };
+		43CEC1F91E6C58A7008FE490 /* NSString+RemoveEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* NSString+RemoveEmoji.swift */; };
+		43CEC1FA1E6C58A8008FE490 /* NSString+RemoveEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* NSString+RemoveEmoji.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		430903161E211582002A7D8E /* PBXContainerItemProxy */ = {
+		43CEC1981E6C4F63008FE490 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4309030B1E211581002A7D8E;
+			remoteGlobalIDString = 43CEC18D1E6C4F63008FE490;
 			remoteInfo = "NSString+RemoveEmoji-iOS";
 		};
-		430903351E211690002A7D8E /* PBXContainerItemProxy */ = {
+		43CEC1C11E6C54D0008FE490 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4309032A1E211690002A7D8E;
+			remoteGlobalIDString = 43CEC1B61E6C54D0008FE490;
+			remoteInfo = "NSString+RemoveEmoji-tvOS";
+		};
+		43CEC1DD1E6C554C008FE490 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43CEC1D21E6C554C008FE490;
 			remoteInfo = "NSString+RemoveEmoji-macOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4309030C1E211581002A7D8E /* NSString_RemoveEmoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSString_RemoveEmoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		430903141E211582002A7D8E /* NSString_RemoveEmoji_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSString_RemoveEmoji_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4309032B1E211690002A7D8E /* NSString_RemoveEmoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSString_RemoveEmoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		430903331E211690002A7D8E /* NSString_RemoveEmojiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSString_RemoveEmojiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		433D52651E20DDA6007B68B2 /* EmojiCharacterSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiCharacterSet.swift; sourceTree = "<group>"; };
+		43CEC18E1E6C4F63008FE490 /* NSString_RemoveEmoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSString_RemoveEmoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43CEC1961E6C4F63008FE490 /* NSString_RemoveEmojiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSString_RemoveEmojiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43CEC1AA1E6C51E1008FE490 /* NSString_RemoveEmoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSString_RemoveEmoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43CEC1B71E6C54D0008FE490 /* NSString_RemoveEmoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSString_RemoveEmoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43CEC1BF1E6C54D0008FE490 /* NSString_RemoveEmoji.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSString_RemoveEmoji.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43CEC1D31E6C554C008FE490 /* NSString_RemoveEmoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSString_RemoveEmoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43CEC1DB1E6C554C008FE490 /* NSString_RemoveEmoji.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSString_RemoveEmoji.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_12 /* NSString+RemoveEmojiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "NSString+RemoveEmojiTests.swift"; path = "NSString+RemoveEmojiTests/NSString+RemoveEmojiTests.swift"; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_9 /* NSString+RemoveEmoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSString+RemoveEmoji.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		430903081E211581002A7D8E /* Frameworks */ = {
+		43CEC18A1E6C4F63008FE490 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		430903111E211582002A7D8E /* Frameworks */ = {
+		43CEC1931E6C4F63008FE490 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				430903151E211582002A7D8E /* NSString_RemoveEmoji.framework in Frameworks */,
+				43CEC1971E6C4F63008FE490 /* NSString_RemoveEmoji.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		430903271E211690002A7D8E /* Frameworks */ = {
+		43CEC1A61E6C51E1008FE490 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		430903301E211690002A7D8E /* Frameworks */ = {
+		43CEC1B31E6C54D0008FE490 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				430903341E211690002A7D8E /* NSString_RemoveEmoji.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43CEC1BC1E6C54D0008FE490 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43CEC1C01E6C54D0008FE490 /* NSString_RemoveEmoji.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43CEC1CF1E6C554C008FE490 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43CEC1D81E6C554C008FE490 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43CEC1DC1E6C554C008FE490 /* NSString_RemoveEmoji.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,10 +134,13 @@
 		OBJ_13 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4309030C1E211581002A7D8E /* NSString_RemoveEmoji.framework */,
-				430903141E211582002A7D8E /* NSString_RemoveEmoji_Tests.xctest */,
-				4309032B1E211690002A7D8E /* NSString_RemoveEmoji.framework */,
-				430903331E211690002A7D8E /* NSString_RemoveEmojiTests.xctest */,
+				43CEC18E1E6C4F63008FE490 /* NSString_RemoveEmoji.framework */,
+				43CEC1961E6C4F63008FE490 /* NSString_RemoveEmojiTests.xctest */,
+				43CEC1AA1E6C51E1008FE490 /* NSString_RemoveEmoji.framework */,
+				43CEC1B71E6C54D0008FE490 /* NSString_RemoveEmoji.framework */,
+				43CEC1BF1E6C54D0008FE490 /* NSString_RemoveEmoji.xctest */,
+				43CEC1D31E6C554C008FE490 /* NSString_RemoveEmoji.framework */,
+				43CEC1DB1E6C554C008FE490 /* NSString_RemoveEmoji.xctest */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -120,14 +167,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		430903091E211581002A7D8E /* Headers */ = {
+		43CEC18B1E6C4F63008FE490 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		430903281E211690002A7D8E /* Headers */ = {
+		43CEC1A71E6C51E1008FE490 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43CEC1B41E6C54D0008FE490 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43CEC1D01E6C554C008FE490 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -137,14 +198,14 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4309030B1E211581002A7D8E /* NSString+RemoveEmoji-iOS */ = {
+		43CEC18D1E6C4F63008FE490 /* NSString+RemoveEmoji-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4309031D1E211582002A7D8E /* Build configuration list for PBXNativeTarget "NSString+RemoveEmoji-iOS" */;
+			buildConfigurationList = 43CEC19F1E6C4F63008FE490 /* Build configuration list for PBXNativeTarget "NSString+RemoveEmoji-iOS" */;
 			buildPhases = (
-				430903071E211581002A7D8E /* Sources */,
-				430903081E211581002A7D8E /* Frameworks */,
-				430903091E211581002A7D8E /* Headers */,
-				4309030A1E211581002A7D8E /* Resources */,
+				43CEC1891E6C4F63008FE490 /* Sources */,
+				43CEC18A1E6C4F63008FE490 /* Frameworks */,
+				43CEC18B1E6C4F63008FE490 /* Headers */,
+				43CEC18C1E6C4F63008FE490 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -152,35 +213,89 @@
 			);
 			name = "NSString+RemoveEmoji-iOS";
 			productName = "NSString+RemoveEmoji-iOS";
-			productReference = 4309030C1E211581002A7D8E /* NSString_RemoveEmoji.framework */;
+			productReference = 43CEC18E1E6C4F63008FE490 /* NSString_RemoveEmoji.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		430903131E211582002A7D8E /* NSString+RemoveEmoji-iOSTests */ = {
+		43CEC1951E6C4F63008FE490 /* NSString+RemoveEmoji-iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 430903201E211582002A7D8E /* Build configuration list for PBXNativeTarget "NSString+RemoveEmoji-iOSTests" */;
+			buildConfigurationList = 43CEC1A21E6C4F63008FE490 /* Build configuration list for PBXNativeTarget "NSString+RemoveEmoji-iOSTests" */;
 			buildPhases = (
-				430903101E211582002A7D8E /* Sources */,
-				430903111E211582002A7D8E /* Frameworks */,
-				430903121E211582002A7D8E /* Resources */,
+				43CEC1921E6C4F63008FE490 /* Sources */,
+				43CEC1931E6C4F63008FE490 /* Frameworks */,
+				43CEC1941E6C4F63008FE490 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				430903171E211582002A7D8E /* PBXTargetDependency */,
+				43CEC1991E6C4F63008FE490 /* PBXTargetDependency */,
 			);
 			name = "NSString+RemoveEmoji-iOSTests";
 			productName = "NSString+RemoveEmoji-iOSTests";
-			productReference = 430903141E211582002A7D8E /* NSString_RemoveEmoji_Tests.xctest */;
+			productReference = 43CEC1961E6C4F63008FE490 /* NSString_RemoveEmojiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4309032A1E211690002A7D8E /* NSString+RemoveEmoji-macOS */ = {
+		43CEC1A91E6C51E1008FE490 /* NSString+RemoveEmoji-watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4309033C1E211690002A7D8E /* Build configuration list for PBXNativeTarget "NSString+RemoveEmoji-macOS" */;
+			buildConfigurationList = 43CEC1AF1E6C51E2008FE490 /* Build configuration list for PBXNativeTarget "NSString+RemoveEmoji-watchOS" */;
 			buildPhases = (
-				430903261E211690002A7D8E /* Sources */,
-				430903271E211690002A7D8E /* Frameworks */,
-				430903281E211690002A7D8E /* Headers */,
-				430903291E211690002A7D8E /* Resources */,
+				43CEC1A51E6C51E1008FE490 /* Sources */,
+				43CEC1A61E6C51E1008FE490 /* Frameworks */,
+				43CEC1A71E6C51E1008FE490 /* Headers */,
+				43CEC1A81E6C51E1008FE490 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSString+RemoveEmoji-watchOS";
+			productName = "NSString+RemoveEmoji-watchOS";
+			productReference = 43CEC1AA1E6C51E1008FE490 /* NSString_RemoveEmoji.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		43CEC1B61E6C54D0008FE490 /* NSString+RemoveEmoji-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43CEC1C81E6C54D0008FE490 /* Build configuration list for PBXNativeTarget "NSString+RemoveEmoji-tvOS" */;
+			buildPhases = (
+				43CEC1B21E6C54D0008FE490 /* Sources */,
+				43CEC1B31E6C54D0008FE490 /* Frameworks */,
+				43CEC1B41E6C54D0008FE490 /* Headers */,
+				43CEC1B51E6C54D0008FE490 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSString+RemoveEmoji-tvOS";
+			productName = "NSString+RemoveEmoji-tvOS";
+			productReference = 43CEC1B71E6C54D0008FE490 /* NSString_RemoveEmoji.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		43CEC1BE1E6C54D0008FE490 /* NSString+RemoveEmoji-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43CEC1CB1E6C54D0008FE490 /* Build configuration list for PBXNativeTarget "NSString+RemoveEmoji-tvOSTests" */;
+			buildPhases = (
+				43CEC1BB1E6C54D0008FE490 /* Sources */,
+				43CEC1BC1E6C54D0008FE490 /* Frameworks */,
+				43CEC1BD1E6C54D0008FE490 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43CEC1C21E6C54D0008FE490 /* PBXTargetDependency */,
+			);
+			name = "NSString+RemoveEmoji-tvOSTests";
+			productName = "NSString+RemoveEmoji-tvOSTests";
+			productReference = 43CEC1BF1E6C54D0008FE490 /* NSString_RemoveEmoji.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43CEC1D21E6C554C008FE490 /* NSString+RemoveEmoji-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43CEC1E41E6C554C008FE490 /* Build configuration list for PBXNativeTarget "NSString+RemoveEmoji-macOS" */;
+			buildPhases = (
+				43CEC1CE1E6C554C008FE490 /* Sources */,
+				43CEC1CF1E6C554C008FE490 /* Frameworks */,
+				43CEC1D01E6C554C008FE490 /* Headers */,
+				43CEC1D11E6C554C008FE490 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -188,25 +303,25 @@
 			);
 			name = "NSString+RemoveEmoji-macOS";
 			productName = "NSString+RemoveEmoji-macOS";
-			productReference = 4309032B1E211690002A7D8E /* NSString_RemoveEmoji.framework */;
+			productReference = 43CEC1D31E6C554C008FE490 /* NSString_RemoveEmoji.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		430903321E211690002A7D8E /* NSString+RemoveEmoji-macOSTests */ = {
+		43CEC1DA1E6C554C008FE490 /* NSString+RemoveEmoji-macOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4309033F1E211690002A7D8E /* Build configuration list for PBXNativeTarget "NSString+RemoveEmoji-macOSTests" */;
+			buildConfigurationList = 43CEC1E71E6C554C008FE490 /* Build configuration list for PBXNativeTarget "NSString+RemoveEmoji-macOSTests" */;
 			buildPhases = (
-				4309032F1E211690002A7D8E /* Sources */,
-				430903301E211690002A7D8E /* Frameworks */,
-				430903311E211690002A7D8E /* Resources */,
+				43CEC1D71E6C554C008FE490 /* Sources */,
+				43CEC1D81E6C554C008FE490 /* Frameworks */,
+				43CEC1D91E6C554C008FE490 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				430903361E211690002A7D8E /* PBXTargetDependency */,
+				43CEC1DE1E6C554C008FE490 /* PBXTargetDependency */,
 			);
 			name = "NSString+RemoveEmoji-macOSTests";
 			productName = "NSString+RemoveEmoji-macOSTests";
-			productReference = 430903331E211690002A7D8E /* NSString_RemoveEmojiTests.xctest */;
+			productReference = 43CEC1DB1E6C554C008FE490 /* NSString_RemoveEmoji.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -215,23 +330,35 @@
 		OBJ_1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0810;
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 9999;
 				TargetAttributes = {
-					4309030B1E211581002A7D8E = {
-						CreatedOnToolsVersion = 8.1;
+					43CEC18D1E6C4F63008FE490 = {
+						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
-					430903131E211582002A7D8E = {
-						CreatedOnToolsVersion = 8.1;
+					43CEC1951E6C4F63008FE490 = {
+						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
-					4309032A1E211690002A7D8E = {
-						CreatedOnToolsVersion = 8.1;
+					43CEC1A91E6C51E1008FE490 = {
+						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
-					430903321E211690002A7D8E = {
-						CreatedOnToolsVersion = 8.1;
+					43CEC1B61E6C54D0008FE490 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					43CEC1BE1E6C54D0008FE490 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					43CEC1D21E6C554C008FE490 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					43CEC1DA1E6C554C008FE490 = {
+						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -248,37 +375,61 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4309030B1E211581002A7D8E /* NSString+RemoveEmoji-iOS */,
-				430903131E211582002A7D8E /* NSString+RemoveEmoji-iOSTests */,
-				4309032A1E211690002A7D8E /* NSString+RemoveEmoji-macOS */,
-				430903321E211690002A7D8E /* NSString+RemoveEmoji-macOSTests */,
+				43CEC18D1E6C4F63008FE490 /* NSString+RemoveEmoji-iOS */,
+				43CEC1D21E6C554C008FE490 /* NSString+RemoveEmoji-macOS */,
+				43CEC1B61E6C54D0008FE490 /* NSString+RemoveEmoji-tvOS */,
+				43CEC1A91E6C51E1008FE490 /* NSString+RemoveEmoji-watchOS */,
+				43CEC1951E6C4F63008FE490 /* NSString+RemoveEmoji-iOSTests */,
+				43CEC1DA1E6C554C008FE490 /* NSString+RemoveEmoji-macOSTests */,
+				43CEC1BE1E6C54D0008FE490 /* NSString+RemoveEmoji-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4309030A1E211581002A7D8E /* Resources */ = {
+		43CEC18C1E6C4F63008FE490 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		430903121E211582002A7D8E /* Resources */ = {
+		43CEC1941E6C4F63008FE490 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		430903291E211690002A7D8E /* Resources */ = {
+		43CEC1A81E6C51E1008FE490 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		430903311E211690002A7D8E /* Resources */ = {
+		43CEC1B51E6C54D0008FE490 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43CEC1BD1E6C54D0008FE490 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43CEC1D11E6C554C008FE490 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43CEC1D91E6C554C008FE490 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -288,57 +439,94 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		430903071E211581002A7D8E /* Sources */ = {
+		43CEC1891E6C4F63008FE490 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				430903241E21162F002A7D8E /* NSString+RemoveEmoji.swift in Sources */,
-				430903231E21162A002A7D8E /* EmojiCharacterSet.swift in Sources */,
+				43CEC1ED1E6C580B008FE490 /* NSString+RemoveEmoji.swift in Sources */,
+				43CEC1F11E6C5810008FE490 /* EmojiCharacterSet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		430903101E211582002A7D8E /* Sources */ = {
+		43CEC1921E6C4F63008FE490 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				430903251E211632002A7D8E /* NSString+RemoveEmojiTests.swift in Sources */,
+				43CEC1EA1E6C5803008FE490 /* NSString+RemoveEmojiTests.swift in Sources */,
+				43CEC1F81E6C58A7008FE490 /* NSString+RemoveEmoji.swift in Sources */,
+				43CEC1F51E6C58A2008FE490 /* EmojiCharacterSet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		430903261E211690002A7D8E /* Sources */ = {
+		43CEC1A51E6C51E1008FE490 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				430903431E211B99002A7D8E /* NSString+RemoveEmoji.swift in Sources */,
-				430903441E211B9C002A7D8E /* EmojiCharacterSet.swift in Sources */,
+				43CEC1F01E6C580C008FE490 /* NSString+RemoveEmoji.swift in Sources */,
+				43CEC1F41E6C5811008FE490 /* EmojiCharacterSet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4309032F1E211690002A7D8E /* Sources */ = {
+		43CEC1B21E6C54D0008FE490 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				430903421E211B7F002A7D8E /* NSString+RemoveEmojiTests.swift in Sources */,
+				43CEC1EF1E6C580C008FE490 /* NSString+RemoveEmoji.swift in Sources */,
+				43CEC1F31E6C5811008FE490 /* EmojiCharacterSet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43CEC1BB1E6C54D0008FE490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43CEC1EC1E6C5804008FE490 /* NSString+RemoveEmojiTests.swift in Sources */,
+				43CEC1FA1E6C58A8008FE490 /* NSString+RemoveEmoji.swift in Sources */,
+				43CEC1F71E6C58A3008FE490 /* EmojiCharacterSet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43CEC1CE1E6C554C008FE490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43CEC1EE1E6C580C008FE490 /* NSString+RemoveEmoji.swift in Sources */,
+				43CEC1F21E6C5810008FE490 /* EmojiCharacterSet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43CEC1D71E6C554C008FE490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43CEC1EB1E6C5804008FE490 /* NSString+RemoveEmojiTests.swift in Sources */,
+				43CEC1F91E6C58A7008FE490 /* NSString+RemoveEmoji.swift in Sources */,
+				43CEC1F61E6C58A3008FE490 /* EmojiCharacterSet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		430903171E211582002A7D8E /* PBXTargetDependency */ = {
+		43CEC1991E6C4F63008FE490 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4309030B1E211581002A7D8E /* NSString+RemoveEmoji-iOS */;
-			targetProxy = 430903161E211582002A7D8E /* PBXContainerItemProxy */;
+			target = 43CEC18D1E6C4F63008FE490 /* NSString+RemoveEmoji-iOS */;
+			targetProxy = 43CEC1981E6C4F63008FE490 /* PBXContainerItemProxy */;
 		};
-		430903361E211690002A7D8E /* PBXTargetDependency */ = {
+		43CEC1C21E6C54D0008FE490 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4309032A1E211690002A7D8E /* NSString+RemoveEmoji-macOS */;
-			targetProxy = 430903351E211690002A7D8E /* PBXContainerItemProxy */;
+			target = 43CEC1B61E6C54D0008FE490 /* NSString+RemoveEmoji-tvOS */;
+			targetProxy = 43CEC1C11E6C54D0008FE490 /* PBXContainerItemProxy */;
+		};
+		43CEC1DE1E6C554C008FE490 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43CEC1D21E6C554C008FE490 /* NSString+RemoveEmoji-macOS */;
+			targetProxy = 43CEC1DD1E6C554C008FE490 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4309031E1E211582002A7D8E /* Debug */ = {
+		43CEC1A01E6C4F63008FE490 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -356,7 +544,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -386,10 +574,11 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "NSString-RemoveEmoji";
+				PRODUCT_BUNDLE_IDENTIFIER = "woxtu.NSString-RemoveEmoji";
 				PRODUCT_NAME = NSString_RemoveEmoji;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -398,7 +587,7 @@
 			};
 			name = Debug;
 		};
-		4309031F1E211582002A7D8E /* Release */ = {
+		43CEC1A11E6C4F63008FE490 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -416,7 +605,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -442,10 +631,11 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "NSString-RemoveEmoji";
+				PRODUCT_BUNDLE_IDENTIFIER = "woxtu.NSString-RemoveEmoji";
 				PRODUCT_NAME = NSString_RemoveEmoji;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -455,7 +645,7 @@
 			};
 			name = Release;
 		};
-		430903211E211582002A7D8E /* Debug */ = {
+		43CEC1A31E6C4F63008FE490 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -474,7 +664,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -494,18 +684,18 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "NSString+RemoveEmoji.xcodeproj/NSString_RemoveEmojiTests_Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "NSString-RemoveEmoji-Tests";
-				PRODUCT_NAME = NSString_RemoveEmoji_Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = "woxtu.NSString-RemoveEmoji";
+				PRODUCT_NAME = NSString_RemoveEmojiTests;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		430903221E211582002A7D8E /* Release */ = {
+		43CEC1A41E6C4F63008FE490 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -524,7 +714,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -540,11 +730,11 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "NSString+RemoveEmoji.xcodeproj/NSString_RemoveEmojiTests_Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "NSString-RemoveEmoji-Tests";
-				PRODUCT_NAME = NSString_RemoveEmoji_Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = "woxtu.NSString-RemoveEmoji";
+				PRODUCT_NAME = NSString_RemoveEmojiTests;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
@@ -552,7 +742,126 @@
 			};
 			name = Release;
 		};
-		4309033D1E211690002A7D8E /* Debug */ = {
+		43CEC1B01E6C51E2008FE490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "NSString+RemoveEmoji.xcodeproj/NSString_RemoveEmoji_Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "woxtu.NSString-RemoveEmoji";
+				PRODUCT_NAME = NSString_RemoveEmoji;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		43CEC1B11E6C51E2008FE490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "NSString+RemoveEmoji.xcodeproj/NSString_RemoveEmoji_Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "woxtu.NSString-RemoveEmoji";
+				PRODUCT_NAME = NSString_RemoveEmoji;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		43CEC1C91E6C54D0008FE490 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -570,7 +879,219 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "NSString+RemoveEmoji.xcodeproj/NSString_RemoveEmoji_Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "woxtu.NSString-RemoveEmoji";
+				PRODUCT_NAME = NSString_RemoveEmoji;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43CEC1CA1E6C54D0008FE490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "NSString+RemoveEmoji.xcodeproj/NSString_RemoveEmoji_Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "woxtu.NSString-RemoveEmoji";
+				PRODUCT_NAME = NSString_RemoveEmoji;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		43CEC1CC1E6C54D0008FE490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "NSString+RemoveEmoji.xcodeproj/NSString_RemoveEmojiTests_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "woxtu.NSString-RemoveEmoji";
+				PRODUCT_NAME = NSString_RemoveEmoji;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		43CEC1CD1E6C54D0008FE490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "NSString+RemoveEmoji.xcodeproj/NSString_RemoveEmojiTests_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "woxtu.NSString-RemoveEmoji";
+				PRODUCT_NAME = NSString_RemoveEmoji;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43CEC1E51E6C554C008FE490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -599,12 +1120,13 @@
 				INFOPLIST_FILE = "NSString+RemoveEmoji.xcodeproj/NSString_RemoveEmoji_Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "NSString-RemoveEmoji";
+				PRODUCT_BUNDLE_IDENTIFIER = "woxtu.NSString-RemoveEmoji";
 				PRODUCT_NAME = NSString_RemoveEmoji;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -612,7 +1134,7 @@
 			};
 			name = Debug;
 		};
-		4309033E1E211690002A7D8E /* Release */ = {
+		43CEC1E61E6C554C008FE490 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -630,7 +1152,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -655,12 +1177,13 @@
 				INFOPLIST_FILE = "NSString+RemoveEmoji.xcodeproj/NSString_RemoveEmoji_Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "NSString-RemoveEmoji";
+				PRODUCT_BUNDLE_IDENTIFIER = "woxtu.NSString-RemoveEmoji";
 				PRODUCT_NAME = NSString_RemoveEmoji;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -668,7 +1191,7 @@
 			};
 			name = Release;
 		};
-		430903401E211690002A7D8E /* Debug */ = {
+		43CEC1E81E6C554C008FE490 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -687,7 +1210,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -709,17 +1232,17 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "NSString+RemoveEmoji.xcodeproj/NSString_RemoveEmojiTests_Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "NSString-RemoveEmojiTests";
-				PRODUCT_NAME = NSString_RemoveEmojiTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "woxtu.NSString-RemoveEmoji";
+				PRODUCT_NAME = NSString_RemoveEmoji;
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		430903411E211690002A7D8E /* Release */ = {
+		43CEC1E91E6C554C008FE490 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -738,7 +1261,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -756,10 +1279,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "NSString+RemoveEmoji.xcodeproj/NSString_RemoveEmojiTests_Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "NSString-RemoveEmojiTests";
-				PRODUCT_NAME = NSString_RemoveEmojiTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "woxtu.NSString-RemoveEmoji";
+				PRODUCT_NAME = NSString_RemoveEmoji;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
@@ -805,41 +1328,61 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4309031D1E211582002A7D8E /* Build configuration list for PBXNativeTarget "NSString+RemoveEmoji-iOS" */ = {
+		43CEC19F1E6C4F63008FE490 /* Build configuration list for PBXNativeTarget "NSString+RemoveEmoji-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4309031E1E211582002A7D8E /* Debug */,
-				4309031F1E211582002A7D8E /* Release */,
+				43CEC1A01E6C4F63008FE490 /* Debug */,
+				43CEC1A11E6C4F63008FE490 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
 		};
-		430903201E211582002A7D8E /* Build configuration list for PBXNativeTarget "NSString+RemoveEmoji-iOSTests" */ = {
+		43CEC1A21E6C4F63008FE490 /* Build configuration list for PBXNativeTarget "NSString+RemoveEmoji-iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				430903211E211582002A7D8E /* Debug */,
-				430903221E211582002A7D8E /* Release */,
+				43CEC1A31E6C4F63008FE490 /* Debug */,
+				43CEC1A41E6C4F63008FE490 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
 		};
-		4309033C1E211690002A7D8E /* Build configuration list for PBXNativeTarget "NSString+RemoveEmoji-macOS" */ = {
+		43CEC1AF1E6C51E2008FE490 /* Build configuration list for PBXNativeTarget "NSString+RemoveEmoji-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4309033D1E211690002A7D8E /* Debug */,
-				4309033E1E211690002A7D8E /* Release */,
+				43CEC1B01E6C51E2008FE490 /* Debug */,
+				43CEC1B11E6C51E2008FE490 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
 		};
-		4309033F1E211690002A7D8E /* Build configuration list for PBXNativeTarget "NSString+RemoveEmoji-macOSTests" */ = {
+		43CEC1C81E6C54D0008FE490 /* Build configuration list for PBXNativeTarget "NSString+RemoveEmoji-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				430903401E211690002A7D8E /* Debug */,
-				430903411E211690002A7D8E /* Release */,
+				43CEC1C91E6C54D0008FE490 /* Debug */,
+				43CEC1CA1E6C54D0008FE490 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+		};
+		43CEC1CB1E6C54D0008FE490 /* Build configuration list for PBXNativeTarget "NSString+RemoveEmoji-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43CEC1CC1E6C54D0008FE490 /* Debug */,
+				43CEC1CD1E6C54D0008FE490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43CEC1E41E6C554C008FE490 /* Build configuration list for PBXNativeTarget "NSString+RemoveEmoji-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43CEC1E51E6C554C008FE490 /* Debug */,
+				43CEC1E61E6C554C008FE490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43CEC1E71E6C554C008FE490 /* Build configuration list for PBXNativeTarget "NSString+RemoveEmoji-macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43CEC1E81E6C554C008FE490 /* Debug */,
+				43CEC1E91E6C554C008FE490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		OBJ_2 /* Build configuration list for PBXProject "NSString+RemoveEmoji" */ = {
 			isa = XCConfigurationList;

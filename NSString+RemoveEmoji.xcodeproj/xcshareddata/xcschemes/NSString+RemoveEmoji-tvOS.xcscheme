@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "43CEC18D1E6C4F63008FE490"
+               BlueprintIdentifier = "43CEC1B61E6C54D0008FE490"
                BuildableName = "NSString_RemoveEmoji.framework"
-               BlueprintName = "NSString+RemoveEmoji-iOS"
+               BlueprintName = "NSString+RemoveEmoji-tvOS"
                ReferencedContainer = "container:NSString+RemoveEmoji.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "43CEC1951E6C4F63008FE490"
-               BuildableName = "NSString_RemoveEmojiTests.xctest"
-               BlueprintName = "NSString+RemoveEmoji-iOSTests"
+               BlueprintIdentifier = "43CEC1BE1E6C54D0008FE490"
+               BuildableName = "NSString_RemoveEmoji.xctest"
+               BlueprintName = "NSString+RemoveEmoji-tvOSTests"
                ReferencedContainer = "container:NSString+RemoveEmoji.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "43CEC18D1E6C4F63008FE490"
+            BlueprintIdentifier = "43CEC1B61E6C54D0008FE490"
             BuildableName = "NSString_RemoveEmoji.framework"
-            BlueprintName = "NSString+RemoveEmoji-iOS"
+            BlueprintName = "NSString+RemoveEmoji-tvOS"
             ReferencedContainer = "container:NSString+RemoveEmoji.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,9 +64,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "43CEC18D1E6C4F63008FE490"
+            BlueprintIdentifier = "43CEC1B61E6C54D0008FE490"
             BuildableName = "NSString_RemoveEmoji.framework"
-            BlueprintName = "NSString+RemoveEmoji-iOS"
+            BlueprintName = "NSString+RemoveEmoji-tvOS"
             ReferencedContainer = "container:NSString+RemoveEmoji.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +82,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "43CEC18D1E6C4F63008FE490"
+            BlueprintIdentifier = "43CEC1B61E6C54D0008FE490"
             BuildableName = "NSString_RemoveEmoji.framework"
-            BlueprintName = "NSString+RemoveEmoji-iOS"
+            BlueprintName = "NSString+RemoveEmoji-tvOS"
             ReferencedContainer = "container:NSString+RemoveEmoji.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
