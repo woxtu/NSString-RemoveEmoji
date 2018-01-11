@@ -17,16 +17,16 @@
 		43CEC1EE1E6C580C008FE490 /* NSString+RemoveEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* NSString+RemoveEmoji.swift */; };
 		43CEC1EF1E6C580C008FE490 /* NSString+RemoveEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* NSString+RemoveEmoji.swift */; };
 		43CEC1F01E6C580C008FE490 /* NSString+RemoveEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* NSString+RemoveEmoji.swift */; };
-		43CEC1F11E6C5810008FE490 /* EmojiCharacterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D52651E20DDA6007B68B2 /* EmojiCharacterSet.swift */; };
-		43CEC1F21E6C5810008FE490 /* EmojiCharacterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D52651E20DDA6007B68B2 /* EmojiCharacterSet.swift */; };
-		43CEC1F31E6C5811008FE490 /* EmojiCharacterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D52651E20DDA6007B68B2 /* EmojiCharacterSet.swift */; };
-		43CEC1F41E6C5811008FE490 /* EmojiCharacterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D52651E20DDA6007B68B2 /* EmojiCharacterSet.swift */; };
-		43CEC1F51E6C58A2008FE490 /* EmojiCharacterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D52651E20DDA6007B68B2 /* EmojiCharacterSet.swift */; };
-		43CEC1F61E6C58A3008FE490 /* EmojiCharacterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D52651E20DDA6007B68B2 /* EmojiCharacterSet.swift */; };
-		43CEC1F71E6C58A3008FE490 /* EmojiCharacterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433D52651E20DDA6007B68B2 /* EmojiCharacterSet.swift */; };
 		43CEC1F81E6C58A7008FE490 /* NSString+RemoveEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* NSString+RemoveEmoji.swift */; };
 		43CEC1F91E6C58A7008FE490 /* NSString+RemoveEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* NSString+RemoveEmoji.swift */; };
 		43CEC1FA1E6C58A8008FE490 /* NSString+RemoveEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* NSString+RemoveEmoji.swift */; };
+		43EFDCAA2007D297004C6912 /* CodePointSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EFDCA92007D297004C6912 /* CodePointSet.swift */; };
+		43EFDCAB2007D2A1004C6912 /* CodePointSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EFDCA92007D297004C6912 /* CodePointSet.swift */; };
+		43EFDCAC2007D2A4004C6912 /* CodePointSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EFDCA92007D297004C6912 /* CodePointSet.swift */; };
+		43EFDCAD2007D2A5004C6912 /* CodePointSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EFDCA92007D297004C6912 /* CodePointSet.swift */; };
+		43EFDCAE2007D2A6004C6912 /* CodePointSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EFDCA92007D297004C6912 /* CodePointSet.swift */; };
+		43EFDCAF2007D2A6004C6912 /* CodePointSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EFDCA92007D297004C6912 /* CodePointSet.swift */; };
+		43EFDCB02007D2A7004C6912 /* CodePointSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EFDCA92007D297004C6912 /* CodePointSet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		433D52651E20DDA6007B68B2 /* EmojiCharacterSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiCharacterSet.swift; sourceTree = "<group>"; };
 		43CEC18E1E6C4F63008FE490 /* NSString_RemoveEmoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSString_RemoveEmoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43CEC1961E6C4F63008FE490 /* NSString_RemoveEmojiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSString_RemoveEmojiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43CEC1AA1E6C51E1008FE490 /* NSString_RemoveEmoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSString_RemoveEmoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +61,7 @@
 		43CEC1BF1E6C54D0008FE490 /* NSString_RemoveEmoji.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSString_RemoveEmoji.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43CEC1D31E6C554C008FE490 /* NSString_RemoveEmoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSString_RemoveEmoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43CEC1DB1E6C554C008FE490 /* NSString_RemoveEmoji.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSString_RemoveEmoji.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43EFDCA92007D297004C6912 /* CodePointSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodePointSet.swift; sourceTree = "<group>"; };
 		OBJ_12 /* NSString+RemoveEmojiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "NSString+RemoveEmojiTests.swift"; path = "NSString+RemoveEmojiTests/NSString+RemoveEmojiTests.swift"; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_9 /* NSString+RemoveEmoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSString+RemoveEmoji.swift"; sourceTree = "<group>"; };
@@ -158,7 +158,7 @@
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				433D52651E20DDA6007B68B2 /* EmojiCharacterSet.swift */,
+				43EFDCA92007D297004C6912 /* CodePointSet.swift */,
 				OBJ_9 /* NSString+RemoveEmoji.swift */,
 			);
 			path = Sources;
@@ -445,8 +445,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43EFDCAA2007D297004C6912 /* CodePointSet.swift in Sources */,
 				43CEC1ED1E6C580B008FE490 /* NSString+RemoveEmoji.swift in Sources */,
-				43CEC1F11E6C5810008FE490 /* EmojiCharacterSet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,8 +455,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				43CEC1EA1E6C5803008FE490 /* NSString+RemoveEmojiTests.swift in Sources */,
+				43EFDCAE2007D2A6004C6912 /* CodePointSet.swift in Sources */,
 				43CEC1F81E6C58A7008FE490 /* NSString+RemoveEmoji.swift in Sources */,
-				43CEC1F51E6C58A2008FE490 /* EmojiCharacterSet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,8 +464,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43EFDCAF2007D2A6004C6912 /* CodePointSet.swift in Sources */,
 				43CEC1F01E6C580C008FE490 /* NSString+RemoveEmoji.swift in Sources */,
-				43CEC1F41E6C5811008FE490 /* EmojiCharacterSet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,8 +473,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43EFDCB02007D2A7004C6912 /* CodePointSet.swift in Sources */,
 				43CEC1EF1E6C580C008FE490 /* NSString+RemoveEmoji.swift in Sources */,
-				43CEC1F31E6C5811008FE490 /* EmojiCharacterSet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,8 +483,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				43CEC1EC1E6C5804008FE490 /* NSString+RemoveEmojiTests.swift in Sources */,
+				43EFDCAD2007D2A5004C6912 /* CodePointSet.swift in Sources */,
 				43CEC1FA1E6C58A8008FE490 /* NSString+RemoveEmoji.swift in Sources */,
-				43CEC1F71E6C58A3008FE490 /* EmojiCharacterSet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,8 +492,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43EFDCAB2007D2A1004C6912 /* CodePointSet.swift in Sources */,
 				43CEC1EE1E6C580C008FE490 /* NSString+RemoveEmoji.swift in Sources */,
-				43CEC1F21E6C5810008FE490 /* EmojiCharacterSet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,8 +502,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				43CEC1EB1E6C5804008FE490 /* NSString+RemoveEmojiTests.swift in Sources */,
+				43EFDCAC2007D2A4004C6912 /* CodePointSet.swift in Sources */,
 				43CEC1F91E6C58A7008FE490 /* NSString+RemoveEmoji.swift in Sources */,
-				43CEC1F61E6C58A3008FE490 /* EmojiCharacterSet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
