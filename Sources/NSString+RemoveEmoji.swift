@@ -10,8 +10,8 @@ import Foundation
 
 private extension UInt32 {
     static let combiningEnclosingKeycap: UInt32 = 0x20E3
-    static let validationSelector15: UInt32 = 0xFE0E
-    static let validationSelector16: UInt32 = 0xFE0F
+    static let variationSelector15: UInt32 = 0xFE0E
+    static let variationSelector16: UInt32 = 0xFE0F
 }
 
 public extension NSString {
@@ -20,8 +20,8 @@ public extension NSString {
         let codepoints = (self as String).unicodeScalars.map { $0.value }
         
         if let first = codepoints.first, let last = codepoints.last {
-            let isKeycapEmoji = last == .combiningEnclosingKeycap && codepoints.contains(.validationSelector16)
-            let isEmoji = CodePointSet.contains(first) && last != .validationSelector15
+            let isKeycapEmoji = last == .combiningEnclosingKeycap && codepoints.contains(.variationSelector16)
+            let isEmoji = CodePointSet.contains(first) && last != .variationSelector15
             
             return isKeycapEmoji || isEmoji
         } else {
