@@ -58,9 +58,9 @@
 		43CEC1961E6C4F63008FE490 /* NSString_RemoveEmojiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSString_RemoveEmojiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43CEC1AA1E6C51E1008FE490 /* NSString_RemoveEmoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSString_RemoveEmoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43CEC1B71E6C54D0008FE490 /* NSString_RemoveEmoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSString_RemoveEmoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		43CEC1BF1E6C54D0008FE490 /* NSString_RemoveEmoji.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSString_RemoveEmoji.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43CEC1BF1E6C54D0008FE490 /* NSString_RemoveEmojiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSString_RemoveEmojiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43CEC1D31E6C554C008FE490 /* NSString_RemoveEmoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSString_RemoveEmoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		43CEC1DB1E6C554C008FE490 /* NSString_RemoveEmoji.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSString_RemoveEmoji.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43CEC1DB1E6C554C008FE490 /* NSString_RemoveEmojiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSString_RemoveEmojiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43EFDCA92007D297004C6912 /* CodePointSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodePointSet.swift; sourceTree = "<group>"; };
 		OBJ_12 /* NSString+RemoveEmojiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "NSString+RemoveEmojiTests.swift"; path = "NSString+RemoveEmojiTests/NSString+RemoveEmojiTests.swift"; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -138,9 +138,9 @@
 				43CEC1961E6C4F63008FE490 /* NSString_RemoveEmojiTests.xctest */,
 				43CEC1AA1E6C51E1008FE490 /* NSString_RemoveEmoji.framework */,
 				43CEC1B71E6C54D0008FE490 /* NSString_RemoveEmoji.framework */,
-				43CEC1BF1E6C54D0008FE490 /* NSString_RemoveEmoji.xctest */,
+				43CEC1BF1E6C54D0008FE490 /* NSString_RemoveEmojiTests.xctest */,
 				43CEC1D31E6C554C008FE490 /* NSString_RemoveEmoji.framework */,
-				43CEC1DB1E6C554C008FE490 /* NSString_RemoveEmoji.xctest */,
+				43CEC1DB1E6C554C008FE490 /* NSString_RemoveEmojiTests.xctest */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -285,7 +285,7 @@
 			);
 			name = "NSString+RemoveEmoji-tvOSTests";
 			productName = "NSString+RemoveEmoji-tvOSTests";
-			productReference = 43CEC1BF1E6C54D0008FE490 /* NSString_RemoveEmoji.xctest */;
+			productReference = 43CEC1BF1E6C54D0008FE490 /* NSString_RemoveEmojiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		43CEC1D21E6C554C008FE490 /* NSString+RemoveEmoji-macOS */ = {
@@ -321,7 +321,7 @@
 			);
 			name = "NSString+RemoveEmoji-macOSTests";
 			productName = "NSString+RemoveEmoji-macOSTests";
-			productReference = 43CEC1DB1E6C554C008FE490 /* NSString_RemoveEmoji.xctest */;
+			productReference = 43CEC1DB1E6C554C008FE490 /* NSString_RemoveEmojiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -331,7 +331,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				TargetAttributes = {
 					43CEC18D1E6C4F63008FE490 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -361,6 +361,7 @@
 					};
 					43CEC1DA1E6C554C008FE490 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -801,7 +802,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "watchsimulator watchos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -858,7 +859,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "watchsimulator watchos";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -919,7 +920,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -975,7 +976,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
@@ -1025,11 +1026,11 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "woxtu.NSString-RemoveEmoji";
-				PRODUCT_NAME = NSString_RemoveEmoji;
+				PRODUCT_NAME = NSString_RemoveEmojiTests;
 				SDKROOT = appletvos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 3.0;
-				TVOS_DEPLOYMENT_TARGET = 10.1;
+				SWIFT_VERSION = 4.0;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
@@ -1070,11 +1071,11 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "woxtu.NSString-RemoveEmoji";
-				PRODUCT_NAME = NSString_RemoveEmoji;
+				PRODUCT_NAME = NSString_RemoveEmojiTests;
 				SDKROOT = appletvos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TVOS_DEPLOYMENT_TARGET = 10.1;
+				SWIFT_VERSION = 4.0;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1134,7 +1135,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1191,7 +1192,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1241,10 +1242,11 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "woxtu.NSString-RemoveEmoji";
-				PRODUCT_NAME = NSString_RemoveEmoji;
+				PRODUCT_NAME = NSString_RemoveEmojiTests;
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -1288,10 +1290,11 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "woxtu.NSString-RemoveEmoji";
-				PRODUCT_NAME = NSString_RemoveEmoji;
+				PRODUCT_NAME = NSString_RemoveEmojiTests;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -1302,11 +1305,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -1345,11 +1350,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
