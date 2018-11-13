@@ -15,8 +15,7 @@ private extension UInt32 {
 }
 
 public extension NSString {
-    @objc
-    public func containsEmoji() -> Bool {
+    private func isEmoji() -> Bool {
         let codepoints = (self as String).unicodeScalars.map { $0.value }
         
         if let first = codepoints.first, let last = codepoints.last {
@@ -29,11 +28,23 @@ public extension NSString {
         }
     }
     
+    @objc
+    public func containsEmoji() -> Bool {
+        var containsEmoji = false
+        enumerateSubstrings(in: NSRange(location: 0, length: length), options: .byComposedCharacterSequences) { substring, _, _, stop in
+            if let substring = substring, substring.isEmoji() {
+                containsEmoji = true
+                stop.assign(repeating: true, count: 1)
+            }
+        }
+        return containsEmoji
+    }
+    
     @objc(stringByRemovingEmoji)
     public func removingEmoji() -> NSString {
-        let buffer = NSMutableString(capacity: self.length)
-        self.enumerateSubstrings(in: NSMakeRange(0, self.length), options: .byComposedCharacterSequences) { substring, _, _, _ in
-            if let substring = substring, !substring.containsEmoji() {
+        let buffer = NSMutableString(capacity: length)
+        enumerateSubstrings(in: NSRange(location: 0, length: length), options: .byComposedCharacterSequences) { substring, _, _, _ in
+            if let substring = substring, !substring.isEmoji() {
                 buffer.append(substring)
             }
         }
