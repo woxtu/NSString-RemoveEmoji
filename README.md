@@ -34,7 +34,6 @@ pod 'NSString+RemoveEmoji', '~> 1.0'
 
 ```
 .package(url: "https://github.com/woxtu/NSString-RemoveEmoji.git", from: "1.0.0")
-
 ```
 
 ## License
