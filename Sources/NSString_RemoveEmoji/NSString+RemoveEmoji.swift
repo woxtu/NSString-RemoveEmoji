@@ -29,7 +29,7 @@ public extension NSString {
     }
     
     @objc
-    public func containsEmoji() -> Bool {
+    func containsEmoji() -> Bool {
         var containsEmoji = false
         enumerateSubstrings(in: NSRange(location: 0, length: length), options: .byComposedCharacterSequences) { substring, _, _, stop in
             if let substring = substring, substring.isEmoji() {
@@ -41,7 +41,7 @@ public extension NSString {
     }
     
     @objc(stringByRemovingEmoji)
-    public func removingEmoji() -> NSString {
+    func removingEmoji() -> NSString {
         let buffer = NSMutableString(capacity: length)
         enumerateSubstrings(in: NSRange(location: 0, length: length), options: .byComposedCharacterSequences) { substring, _, _, _ in
             if let substring = substring, !substring.isEmoji() {

@@ -27,6 +27,6 @@ let CodePointSet = Set<UInt32>([
 ])
 "
 
-File.open("./Sources/#{filename}", 'w') do |file|
+File.open("./Sources/NSString_RemoveEmoji/#{filename}", 'w') do |file|
   file.puts contents
 end

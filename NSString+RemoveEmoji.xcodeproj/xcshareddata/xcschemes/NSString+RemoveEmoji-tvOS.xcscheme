@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1020"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "43CEC1BE1E6C54D0008FE490"
-               BuildableName = "NSString_RemoveEmoji.xctest"
+               BuildableName = "NSString_RemoveEmojiTests.xctest"
                BlueprintName = "NSString+RemoveEmoji-tvOSTests"
                ReferencedContainer = "container:NSString+RemoveEmoji.xcodeproj">
             </BuildableReference>
