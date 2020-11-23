@@ -182,37 +182,6 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		43CEC18B1E6C4F63008FE490 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		43CEC1A71E6C51E1008FE490 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		43CEC1B41E6C54D0008FE490 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		43CEC1D01E6C554C008FE490 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
 		43CEC18D1E6C4F63008FE490 /* NSString+RemoveEmoji-iOS */ = {
 			isa = PBXNativeTarget;
@@ -220,8 +189,8 @@
 			buildPhases = (
 				43CEC1891E6C4F63008FE490 /* Sources */,
 				43CEC18A1E6C4F63008FE490 /* Frameworks */,
-				43CEC18B1E6C4F63008FE490 /* Headers */,
 				43CEC18C1E6C4F63008FE490 /* Resources */,
+				4328866B256B662600E01274 /* SwiftFormat */,
 			);
 			buildRules = (
 			);
@@ -256,7 +225,6 @@
 			buildPhases = (
 				43CEC1A51E6C51E1008FE490 /* Sources */,
 				43CEC1A61E6C51E1008FE490 /* Frameworks */,
-				43CEC1A71E6C51E1008FE490 /* Headers */,
 				43CEC1A81E6C51E1008FE490 /* Resources */,
 			);
 			buildRules = (
@@ -274,7 +242,6 @@
 			buildPhases = (
 				43CEC1B21E6C54D0008FE490 /* Sources */,
 				43CEC1B31E6C54D0008FE490 /* Frameworks */,
-				43CEC1B41E6C54D0008FE490 /* Headers */,
 				43CEC1B51E6C54D0008FE490 /* Resources */,
 			);
 			buildRules = (
@@ -310,8 +277,8 @@
 			buildPhases = (
 				43CEC1CE1E6C554C008FE490 /* Sources */,
 				43CEC1CF1E6C554C008FE490 /* Frameworks */,
-				43CEC1D01E6C554C008FE490 /* Headers */,
 				43CEC1D11E6C554C008FE490 /* Resources */,
+				4328866C256B663600E01274 /* SwiftFormat */,
 			);
 			buildRules = (
 			);
@@ -458,6 +425,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4328866B256B662600E01274 /* SwiftFormat */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftFormat;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftformat >/dev/null; then\n  swiftformat .\nelse\n  echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\nfi\n";
+		};
+		4328866C256B663600E01274 /* SwiftFormat */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftFormat;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftformat >/dev/null; then\n  swiftformat .\nelse\n  echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\nfi\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		43CEC1891E6C4F63008FE490 /* Sources */ = {

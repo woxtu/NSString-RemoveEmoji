@@ -17,17 +17,17 @@ private extension UInt32 {
 public extension NSString {
     private func isEmoji() -> Bool {
         let codepoints = (self as String).unicodeScalars.map { $0.value }
-        
+
         if let first = codepoints.first, let last = codepoints.last {
             let isKeycapEmoji = last == .combiningEnclosingKeycap && codepoints.contains(.variationSelector16)
             let isEmoji = CodePointSet.contains(first) && last != .variationSelector15
-            
+
             return isKeycapEmoji || isEmoji
         } else {
             return false
         }
     }
-    
+
     @objc
     func containsEmoji() -> Bool {
         var containsEmoji = false
@@ -39,7 +39,7 @@ public extension NSString {
         }
         return containsEmoji
     }
-    
+
     @objc(stringByRemovingEmoji)
     func removingEmoji() -> NSString {
         let buffer = NSMutableString(capacity: length)
