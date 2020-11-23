@@ -47,6 +47,9 @@ class NSString_RemoveEmojiTests: XCTestCase {
 
         // iOS 12
         XCTAssert("🥳".containsEmoji())
+
+        // iOS 13
+        XCTAssert("🥱".containsEmoji())
     }
 
     func testRemovingEmoji() {
@@ -86,5 +89,8 @@ class NSString_RemoveEmojiTests: XCTestCase {
 
         // iOS 12
         XCTAssertEqual("🥳".removingEmoji(), "")
+
+        // iOS 13
+        XCTAssertEqual("🥱".removingEmoji(), "")
     }
 }
