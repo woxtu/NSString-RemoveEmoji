@@ -1,6 +1,8 @@
-@testable import NSString_RemoveEmojiTests
 import XCTest
 
-XCTMain([
-    testCase(NSString_RemoveEmojiTests.allTests),
-])
+import NSString_RemoveEmojiTests
+
+var tests = [XCTestCaseEntry]()
+tests += NSString_RemoveEmojiTests.__allTests()
+
+XCTMain(tests)
