@@ -10,16 +10,8 @@ let package = Package(
     products: [
         .library(name: "NSString_RemoveEmoji", targets: ["NSString_RemoveEmoji"]),
     ],
-    dependencies: [],
     targets: [
-        .target(
-            name: "NSString_RemoveEmoji",
-            dependencies: []
-        ),
-        .testTarget(
-            name: "NSString_RemoveEmojiTests",
-            dependencies: ["NSString_RemoveEmoji"]
-        ),
-    ],
-    swiftLanguageVersions: [.v5]
+        .target(name: "NSString_RemoveEmoji"),
+        .testTarget(name: "NSString_RemoveEmojiTests", dependencies: ["NSString_RemoveEmoji"]),
+    ]
 )
