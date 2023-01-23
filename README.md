@@ -20,11 +20,15 @@ let stringByRemovingEmoji = "✨Party✨ ✨Hard✨".removingEmoji()
 
 ### Carthage
 
+Deprecated.
+
 ```
 github "woxtu/NSString-RemoveEmoji" ~> 1.0
 ```
 
 ### CocoaPods
+
+Deprecated.
 
 ```
 pod 'NSString+RemoveEmoji', '~> 1.0'
